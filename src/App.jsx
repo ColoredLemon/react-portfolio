@@ -5,16 +5,15 @@ import AboutPage from "./pages/AboutPage"
 import ProjectsPage from "./pages/ProjectsPage"
 import ContactPage from "./pages/ContactPage"
 import NotFoundPage from "./pages/NotFoundPage"
-import { 
+import {
+ 
   Route, 
-  createHashRouter, 
+  createBrowserRouter, 
   createRoutesFromElements, 
-  HashProvider, 
-  HashRouter} from "react-router-dom"
+  RouterProvider } from "react-router-dom"
 
-const router = createHashRouter(
+const router = createBrowserRouter(
   createRoutesFromElements(
-    <HashRouter>
     <Route path='/' element ={<MainLayout/>}>
     <Route index element={<HomePage/>}/>
     <Route path='/AboutPage' element={<AboutPage/>}/>
@@ -22,13 +21,12 @@ const router = createHashRouter(
     <Route path='/ContactPage' element={<ContactPage/>}/>
     <Route path='*' element={<NotFoundPage/>}/>
   </Route>
-  </HashRouter>
   )
 );
 
 const App = () => {
   return (
-    <HashProvider router={router}/>
+    <RouterProvider router={router}/>
   )
 }
 
