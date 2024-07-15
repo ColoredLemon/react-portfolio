@@ -7,11 +7,11 @@ import ContactPage from "./pages/ContactPage"
 import NotFoundPage from "./pages/NotFoundPage"
 import { 
   Route, 
-  createBrowserRouter, 
+  createHashRouter, 
   createRoutesFromElements, 
   RouterProvider } from "react-router-dom"
 
-const router = createBrowserRouter(
+const router = createHashRouter(
   createRoutesFromElements(
     <Route path='/' element ={<MainLayout/>}>
     <Route index element={<HomePage/>}/>
