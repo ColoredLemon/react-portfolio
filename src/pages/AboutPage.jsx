@@ -1,22 +1,22 @@
 
 
-const Contact = () => {
+const About = () => {
   return (
     <div className="min-h-screen bg-gray-100">
     <header className="bg-white shadow">
       <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
         <h1 className="text-3xl font-bold leading-tight text-gray-900">
-          Page Name
+          THIS IS THE ABOUT PAGE Name
         </h1>
       </div>
     </header>
     <main>
       <div className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
-        <p>This is the Page Name page.</p>
+        <p>This is THE ABOUT page.</p>
       </div>
     </main>
   </div>
   )
 }
 
-export default Contact
+export default About

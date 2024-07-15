@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 
 const Footer = () => {
   return (
@@ -13,42 +14,26 @@ const Footer = () => {
           <h3 className="text-lg font-bold mb-2">Links</h3>
           <ul className="space-y-2">
             <li>
-              <a href="#" className="hover:text-gray-400">
+              <Link to="/" className="hover:text-gray-400">
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="hover:text-gray-400">
+              <Link to="/AboutPage" className="hover:text-gray-400">
                 About
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="hover:text-gray-400">
+              <Link to="/ProjectsPage" className="hover:text-gray-400">
                 Projects
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="hover:text-gray-400">
+              <Link to="/ContactPage" className="hover:text-gray-400">
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
-        </div>
-        <div className="w-full md:w-1/3">
-          <h3 className="text-lg font-bold mb-2">Subscribe</h3>
-          <form className="flex">
-            <input
-              type="email"
-              className="w-full px-4 py-2 rounded-l-md focus:outline-none focus:ring-2 focus:ring-blue-600"
-              placeholder="Enter your email"
-            />
-            <button
-              type="submit"
-              className="bg-blue-600 text-white px-4 py-2 rounded-r-md hover:bg-blue-700"
-            >
-              Subscribe
-            </button>
-          </form>
         </div>
       </div>
       <hr className="my-6 border-gray-700" />
