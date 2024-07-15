@@ -5,8 +5,7 @@ import AboutPage from "./pages/AboutPage"
 import ProjectsPage from "./pages/ProjectsPage"
 import ContactPage from "./pages/ContactPage"
 import NotFoundPage from "./pages/NotFoundPage"
-import {
- 
+import { 
   Route, 
   createBrowserRouter, 
   createRoutesFromElements, 
