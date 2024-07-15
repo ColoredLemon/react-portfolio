@@ -14,7 +14,7 @@ import {
 
 const router = createHashRouter(
   createRoutesFromElements(
-    <HashRouter basename='/'>
+    <HashRouter>
     <Route path='/' element ={<MainLayout/>}>
     <Route index element={<HomePage/>}/>
     <Route path='/AboutPage' element={<AboutPage/>}/>
