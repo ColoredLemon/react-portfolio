@@ -9,10 +9,12 @@ import {
   Route, 
   createHashRouter, 
   createRoutesFromElements, 
-  RouterProvider } from "react-router-dom"
+  RouterProvider, 
+  HashRouter} from "react-router-dom"
 
 const router = createHashRouter(
   createRoutesFromElements(
+    <HashRouter>
     <Route path='/' element ={<MainLayout/>}>
     <Route index element={<HomePage/>}/>
     <Route path='/AboutPage' element={<AboutPage/>}/>
@@ -20,6 +22,7 @@ const router = createHashRouter(
     <Route path='/ContactPage' element={<ContactPage/>}/>
     <Route path='*' element={<NotFoundPage/>}/>
   </Route>
+  </HashRouter>
   )
 );
 
