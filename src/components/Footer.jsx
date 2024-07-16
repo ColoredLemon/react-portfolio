@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 const Footer = () => {
   return (
@@ -7,7 +9,7 @@ const Footer = () => {
       <div className="flex flex-wrap justify-between">
         <div className="w-full md:w-1/3 mb-4 md:mb-0">
           <h3 className="text-lg font-bold mb-2">Contact</h3>
-          <p>Email: y.yangster1998@gmail.com</p>
+          <p><FontAwesomeIcon icon={faEnvelope} className='mr-2'/>y.yangster1998@gmail.com</p>
         </div>
         <div className="w-full md:w-1/3 mb-4 md:mb-0">
           <h3 className="text-lg font-bold mb-2">Links</h3>

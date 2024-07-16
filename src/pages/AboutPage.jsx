@@ -1,9 +1,9 @@
-
+import armyDays from '../img/armyDays.jpg'
 
 const AboutPage = () => {
   return (
     <div className="min-h-screen bg-gray-100">
-      <header className="bg-white shadow">
+      <header className="">
         <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
           <h1 className="text-3xl font-bold leading-tight text-gray-900">
             About Me
@@ -17,15 +17,15 @@ const AboutPage = () => {
               <div className="px-4 py-5 sm:p-6">
                 <div className="flex items-center justify-center mb-8">
                   <img
-                    src="/path/to/your/photo.jpg"
-                    alt="Your Name"
+                    src={armyDays}
+                    alt="Profile Picture but when I was in the Army"
                     className="w-48 h-48 rounded-full object-cover"
                   />
                 </div>
                 <div className="mb-8">
                   <h2 className="text-2xl font-bold mb-4">Introduction</h2>
                   <p className="text-lg text-gray-700">
-                    Hi I am a passionate software developer and also a veteran. 
+                    Hi I am a software developer and also a veteran. 
                   </p>
                 </div>
                 <div className="mb-8">

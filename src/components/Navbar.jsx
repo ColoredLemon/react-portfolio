@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+import { faLemon, faHome, faUser, faCode, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
@@ -14,28 +14,32 @@ const Navbar = () => {
           <div className="flex items-center">
             
             <NavLink to="/" className="text-white text-2xl font-bold">
-            <FontAwesomeIcon icon={faCoffee} className="text-3xl" />
+            <FontAwesomeIcon icon={faLemon} className="text-4xl" />
             </NavLink>
           </div>
           <div className="hidden md:block">
             <ul className="flex space-x-4">
               <li>
                 <NavLink to="/" className={activeLink}>
+                <FontAwesomeIcon icon={faHome} className='mr-2'/>
                   Home
                 </NavLink>
               </li>
               <li>
                 <NavLink to="/AboutPage" className={activeLink}>
+                <FontAwesomeIcon icon={faUser} className='mr-2'/>
                   About
                 </NavLink>
               </li>
               <li>
                 <NavLink to="/ProjectsPage" className={activeLink}>
+                <FontAwesomeIcon icon={faCode} className='mr-2'/>
                   Projects
                 </NavLink>
               </li>
               <li>
                 <NavLink to="/ContactPage" className={activeLink}>
+                <FontAwesomeIcon icon={faEnvelope} className='mr-2'/>
                   Contact
                 </NavLink>
               </li>

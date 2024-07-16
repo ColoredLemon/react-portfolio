@@ -1,9 +1,9 @@
-
+import ProjectPic from '../img/ProjectPic.jpg'
 
 const ProjectsPage = () => {
   return (
     <div className="min-h-screen bg-gray-100">
-      <header className="bg-white shadow">
+      <header className="">
         <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
           <h1 className="text-3xl font-bold leading-tight text-gray-900">
             Projects:
@@ -17,8 +17,8 @@ const ProjectsPage = () => {
               <div className="px-4 py-5 sm:p-6">
                 <div className="flex items-center justify-center mb-8">
                   <img
-                    src="/path/to/your/photo.jpg"
-                    alt="Your Name"
+                    src={ProjectPic}
+                    alt="Project Stock Photo"
                     className="w-48 h-48 rounded-full object-cover"
                   />
                 </div>
@@ -41,7 +41,7 @@ const ProjectsPage = () => {
                     took me half a day. I followed a tutorial for a base and then I branched out with the most basic looking portfolio, version 1.0, a minimum-viable-product. 
                     In the future I want to add a form for users, one where they can submit their queries to my email. I also want to fix the UI and UX of my website since
                     it looks so plain and has just the necessary function to be called a portfolio website. I want to add a database of future projects, and I want it to be
-                    searchable. This portfolio website is far from done, but it has served it purpose of teaching me.
+                    searchable. I still have accessibility, mobile/dynamic viewing, and performance that I need to worry about.This portfolio website is far from done, but it has served it purpose of teaching me.
                   </p>
                 </div>
                 <div className="mb-8">
