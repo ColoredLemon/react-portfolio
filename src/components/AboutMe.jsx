@@ -21,16 +21,9 @@ const AboutMe = () => {
         <section className="mb-8">
           <h2 className="text-2xl font-bold mb-4">About Me</h2>
           <p>
-            Hi, I am John Doe.  I am a web developer with experience in React and Tailwind CSS. This is my first ever project using react and tailwindcss.
+            Hi, my name is Yuepeng Yang, I am a software developer with a focus on Python, Java and Javascript. I use the web to 
+            create and automate tasks for my daily routine. I am also a United States veteran from Minnesota.
           </p>
-        </section>
-        <section className="mb-8">
-          <h2 className="text-2xl font-bold mb-4">Projects</h2>
-          <ul className="list-disc pl-6">
-            <li>Project 1</li>
-            <li>Project 2</li>
-            <li>Project 3</li>
-          </ul>
         </section>
       </div>
     </main>
