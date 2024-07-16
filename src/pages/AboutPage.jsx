@@ -25,38 +25,32 @@ const AboutPage = () => {
                 <div className="mb-8">
                   <h2 className="text-2xl font-bold mb-4">Introduction</h2>
                   <p className="text-lg text-gray-700">
-                    Hi, I`m John Doe, a passionate software developer with expertise in web development. I love creating innovative solutions and bringing ideas to life through coding.
+                    Hi I am a passionate software developer and also a veteran. 
                   </p>
                 </div>
                 <div className="mb-8">
                   <h2 className="text-2xl font-bold mb-4">Background</h2>
                   <p className="text-lg text-gray-700">
-                    I have a Bachelor`s degree in Computer Science from XYZ University. During my studies, I gained a strong foundation in programming concepts and developed a keen interest in web technologies.
+                    I have a Bachelor`s degree in Computer Science from Metro State University, Minnesota. During my studies, I gained a strong foundation in programming concepts and ever since has piqued my interest. 
                   </p>
                   <p className="text-lg text-gray-700 mt-4">
-                    After graduation, I worked as a software developer at ABC Company, where I honed my skills in front-end and back-end development. I collaborated with cross-functional teams to deliver high-quality software solutions.
+                    During my time at my university I enslisted into the Minnesota National Guard as an Intelligence Analyst. I served my full contract and was honorably discharged, but soon after found myself directionless. I took some jobs
+                    unrelated to programming or Computer Science to pay bills. Those jobs helped me develop strong interpersonal and communication skills since I needed to help people daily that both served the best interest of them and the company I worked for.
+                    Now I am trying to enter into the software engineering space, as I have felt that I have learned a lot from my other jobs, but I would like to learn more about programming and apply it. I am constantly learning and want to learn so I can be a better
+                    programmer.
                   </p>
                 </div>
                 <div className="mb-8">
                   <h2 className="text-2xl font-bold mb-4">Skills</h2>
                   <ul className="list-disc list-inside text-lg text-gray-700">
-                    <li>JavaScript (ES6+)</li>
+                    <li>JavaScript</li>
+                    <li>Java</li>
                     <li>React</li>
+                    <li>Python</li>
                     <li>Node.js</li>
-                    <li>Express.js</li>
-                    <li>HTML5 &amp; CSS3</li>
-                    <li>MongoDB</li>
                     <li>Git</li>
+                    <li>SQL</li>
                   </ul>
-                </div>
-                <div>
-                  <h2 className="text-2xl font-bold mb-4">Passion</h2>
-                  <p className="text-lg text-gray-700">
-                    I am passionate about staying up-to-date with the latest web technologies and trends. I enjoy exploring new frameworks, libraries, and tools to enhance my development skills and create cutting-edge applications.
-                  </p>
-                  <p className="text-lg text-gray-700 mt-4">
-                    In my free time, I contribute to open-source projects and participate in coding challenges to further expand my knowledge and give back to the developer community.
-                  </p>
                 </div>
               </div>
             </div>

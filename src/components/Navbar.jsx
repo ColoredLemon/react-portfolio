@@ -1,4 +1,5 @@
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
@@ -13,7 +14,7 @@ const Navbar = () => {
           <div className="flex items-center">
             
             <NavLink to="/" className="text-white text-2xl font-bold">
-              Logo
+            <FontAwesomeIcon icon={faCoffee} className="text-3xl" />
             </NavLink>
           </div>
           <div className="hidden md:block">

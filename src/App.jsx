@@ -10,6 +10,7 @@ import {
   createRoutesFromElements,
   RouterProvider,
 } from "react-router-dom";
+import MusicProject from "./pages/MusicProject";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -17,6 +18,7 @@ const router = createBrowserRouter(
       <Route index element={<HomePage />} />
       <Route path="/AboutPage" element={<AboutPage />} />
       <Route path="/ProjectsPage" element={<ProjectsPage />} />
+      <Route path="/ProjectsPage/MusicProject" element={<MusicProject/>}/>
       <Route path="/ContactPage" element={<ContactPage />} />
       <Route path="*" element={<NotFoundPage />} />
     </Route>
